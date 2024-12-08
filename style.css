@@ -1,0 +1,120 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Heading Styling */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+}
+
+/* Container for Calculator */
+.container {
+    width: 320px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Display Section */
+.display {
+    margin-bottom: 20px;
+    background-color: #222;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: right;
+    color: #fff;
+}
+
+.display input {
+    width: 100%;
+    background-color: #222;
+    border: none;
+    color: #fff;
+    font-size: 2rem;
+    text-align: right;
+    padding: 10px;
+    border-radius: 8px;
+    outline: none;
+}
+
+/* Button Styling */
+button {
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    padding: 20px;
+    font-size: 1.5rem;
+    width: 70px;
+    height: 70px;
+    margin: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button Hover Effects */
+button:hover {
+    background-color: #ddd;
+}
+
+/* Button Active (Pressed) Effects */
+button:active {
+    background-color: #ccc;
+}
+
+/* Row Styling */
+.same {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Row Spacing */
+.row1, .row2, .row3, .row4 {
+    margin-bottom: 10px;
+}
+
+/* Clear Button Styling */
+#equal {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#equal:hover {
+    background-color: #45a049;
+}
+
+#equal:active {
+    background-color: #388e3c;
+}
+
+/* C Button Styling */
+button#C {
+    background-color: #f44336;
+    color: white;
+}
+
+button#C:hover {
+    background-color: #e53935;
+}
+
+button#C:active {
+    background-color: #c62828;
+}
